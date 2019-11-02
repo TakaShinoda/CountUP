@@ -17,5 +17,7 @@ function countReducer(state = state_value, action) {
     }
 }
 
+
+
 //ストア作成しエクスポート
 export default createStore(countReducer);
